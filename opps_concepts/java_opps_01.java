@@ -4,8 +4,11 @@ public class java_opps_01 {
     
     public static void main(String args[]){
         Pen pen1 = new Pen(); //created object of Pen class
-        pen1.color = "red";
+        //inserting data in variables
+        pen1.color = "red"; 
         pen1.type = "gel pen";
+         
+        //calling methods
         pen1.write();
         pen1.printColor();
     }
